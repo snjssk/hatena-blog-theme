@@ -1,0 +1,80 @@
+@media (min-width: 992px) {
+  #container, #footer {
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    margin-right: 36px;
+  }
+}
+
+
+/* header */
+#blog-title-content {
+  text-align: center;
+}
+#blog-title-content #title {
+  font-weight: normal;
+  font-size: 36px;
+}
+#blog-title-content #blog-description {
+  font-size: 16px;
+}
+#blog-title {
+  background-color: #f7f8f9;
+  padding: 96px 0;
+  text-align: center;
+}
+@media screen and (min-width: 992px) {
+  #blog-title {
+    margin: 0 !important;
+  }
+}
+
+/* contents */
+#content {
+  padding-top: 24px;
+}
+#content-inner {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.entry-header {
+  border-bottom: none;
+}
+.entry-categories .categories {
+  margin: 16px 0 0 0;
+}
+.entry-categories .categories a {
+  background-color: #eaeaea;
+  margin-right: .5em;
+  padding: 6px 12px;
+  border-radius: 12%;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  #wrapper {
+    width: 100%;
+  }
+  #content-inner #main {
+    width: 100% !important;
+  }
+}
+
+/* sidebar */
+@media screen and (min-width: 992px) {
+  #content-inner #box2 {
+    width: 240px !important;
+  }
+}
+#box2-inner .hatena-module .hatena-module-title {
+  font-size: 16px;
+  margin: 0 0 12px 0;
+  padding-bottom: .2em;
+  border-bottom: 2px solid #eaeaea;
+}
