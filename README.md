@@ -79,3 +79,13 @@ boilerplate/
 
 - <https://github.com/hatena/Hatena-Blog-Theme-Boilerplate-Less>
   - BoilerplateのLessバージョンです。（開発終了）
+
+# テーマの反映
+
+- テーマをbuild
+  - npm run build
+- テーマストアにある自身のテーマをアップデート
+  - 自身のテーマ
+  - https://blog.hatena.ne.jp/-/store/theme/-/manage
+  - ここから編集、buildした boilerplate のcssをここに貼り付けして保存、このテーマをインストールする
+  - https://blog.hatena.ne.jp/-/store/theme/13574176438008965339/edit
