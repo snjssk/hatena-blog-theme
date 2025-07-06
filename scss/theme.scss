@@ -8,18 +8,7 @@
   }
 }
 
-
 /* header */
-#blog-title-content {
-  text-align: center;
-}
-#blog-title-content #title {
-  font-weight: normal;
-  font-size: 36px;
-}
-#blog-title-content #blog-description {
-  font-size: 16px;
-}
 #blog-title {
   background-color: #f7f8f9;
   padding: 96px 0;
@@ -29,6 +18,25 @@
   #blog-title {
     margin: 0 !important;
   }
+}
+#blog-title-content {
+  text-align: center;
+}
+#blog-title-content #title {
+  font-weight: bold;
+  font-size: 36px;
+}
+#blog-title-content #blog-description {
+  font-size: 16px;
+}
+
+/* breadcrumb */
+#top-box .breadcrumb {
+  margin: 32px 0 8px 0;
+}
+#top-box .breadcrumb .breadcrumb-inner {
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
 /* contents */
@@ -77,4 +85,8 @@
   margin: 0 0 12px 0;
   padding-bottom: .2em;
   border-bottom: 2px solid #eaeaea;
+}
+
+#box2-inner .hatena-urllist li {
+  padding: 2px 0;
 }
